@@ -41,7 +41,7 @@ To get started with this project, follow these steps:
 
 You can access a structural prototype of the project [here](link-to-prototype). Please note that this is a half-built version for demonstration purposes.
 
-![Structural Prototype](https://github.com/praTeek271/WebShare/blob/main/layput.png)
+![Structural Prototype](https://github.com/praTeek271/WebShare/blob/main/layput.jpg)
 
 You can access the structural prototype of the project on Figma by clicking [here](https://www.figma.com/file/MJxsrwN5fHwqGgoClc9oJn/WebShare?type=design&node-id=3%3A2&mode=design&t=3KaafF2tGqWz1UAH-1).
 
