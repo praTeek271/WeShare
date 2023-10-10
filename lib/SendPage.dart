@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 
 class SendPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    String url="https://prateek271.github.io/Drop_test_Proj_development/upload";
     return Scaffold(
       appBar: AppBar(
-        title: Text('Send Page'),
+        elevation: 0.0, // Remove the drop shadow
+        automaticallyImplyLeading: false, // Hide the title
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
           onPressed: () {
@@ -13,9 +16,11 @@ class SendPage extends StatelessWidget {
           },
         ),
       ),
-      body: Center(
-        child: Text('Welcome to Send Page'),
+      body: WebView(
+        initialUrl:url,
+        javascriptMode: JavascriptMode.unrestricted,
       ),
     );
   }
 }
+
