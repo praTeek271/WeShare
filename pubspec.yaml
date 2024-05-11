@@ -34,7 +34,10 @@ dependencies:
   animated_text_kit: 4.2.2
   qr_code_scanner: 1.0.1
   webview_flutter: ^2.0.14
-#  barcode_scan: 3.0.1
+  file_picker: ^4.0.0
+  connectivity_plus :  5.0.0
+
+  #  barcode_scan: 3.0.1
 # ...
 
 
@@ -62,7 +65,11 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
   assets:
-    - assets/startpage.gif  # Add the path to your GIF file relative to the assets directory
+    - assets/startpage.gif
+    - assets/
+    - assets/Vide_ani_1.gif
+    - assets/Add_files.gif
+    # Add the path to your GIF file relative to the assets directory
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

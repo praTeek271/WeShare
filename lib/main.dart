@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:webview_flutter/webview_flutter.dart'; // Add this import
+
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'HomePage.dart'; // Import the HomePage
 
